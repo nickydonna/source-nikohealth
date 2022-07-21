@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "Id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DisplayId": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Status": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "PositionIndex": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "Payer": {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "Name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "ClaimCode": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "PolicyNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "CreatedDate": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "VerificationInfo": {
+      "type": "object",
+      "properties": {
+        "VerifiedBy": {
+          "type": "object",
+          "properties": {
+            "FirstName": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "LastName": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "MiddleName": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }
+          }
+        },
+        "VerifiedDate": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "Verified": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        }
+      }
+    }
+  }
+}

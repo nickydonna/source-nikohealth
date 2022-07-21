@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "Id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DisplayId": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Name": {
+      "type": "object",
+      "properties": {
+        "FullName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "First": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "Last": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "Middle": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      },
+      "sensitive": true
+    },
+    "DateOfBirthday": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "sensitive": true
+    },
+    "Address": {
+      "type": "object",
+      "properties": {
+        "FullAddress": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "AddressLine": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "AddressLine2": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "City": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "Zip": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "State": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      },
+      "sensitive": true
+    },
+    "Phones": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Active": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LocationName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LocationNpi": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Tags": {
+      "type": "array",
+      "of": "string"
+    },
+    "Gender": {
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  }
+}
